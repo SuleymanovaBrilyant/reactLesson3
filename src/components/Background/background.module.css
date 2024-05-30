@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.imageDiv {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}

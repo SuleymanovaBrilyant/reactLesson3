@@ -1,0 +1,21 @@
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; /* Ensure no overflow from children */
+}
+
+.index {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.weather {
+  position: absolute;
+  top: 30%;
+  left: 33.5%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
